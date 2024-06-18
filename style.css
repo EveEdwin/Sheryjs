@@ -1,0 +1,139 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: "gillroy";
+    box-sizing: border-box;
+
+ }
+
+ html,body{
+    width: 100%;
+    height: 100%;
+
+ }
+
+ #main{
+    width: 100%;
+    height: 100vh;
+
+
+ }
+
+ #back{
+    width: 100%;
+    height: 100vh;
+    
+ }
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ #top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+ 
+ }
+ #workingarea{
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+position: relative;
+ }
+
+ #nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px  0;
+ }
+
+ #nav img{
+    height: 60px;
+ }
+
+ #nleft, #nright{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+ }
+ 
+ #nav a{
+    pointer-events: all;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+ }
+
+#hero{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50% );
+    width: 100%;
+
+justify-content: space-between;
+    display: flex;
+
+}
+
+#heroleft{
+    min-width: 50%;
+
+}
+#heroleft .elem{
+    height: 9vw;
+
+    overflow: hidden;
+}
+#heroleft button{
+    pointer-events: all;
+    padding: .8vw 3vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: "kajiro";
+}
+#heroleft .elem h1{
+    line-height: 0.9;
+    font-family: "kajiro";
+    color: #fff;
+    font-size: 11vw;
+    font-weight: 100;
+}
+#heroright{
+     width: 17%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    color: #fff;
+
+}
+
+#heroright p{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+}
+
+#heroright #imagediv{
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image: url(https://images.unsplash.com/photo-1717952665066-45f89a285ddc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+}
+
+#heroright p:nth-child(3){
+    margin-bottom: 100px;
+}
